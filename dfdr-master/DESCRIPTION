@@ -1,0 +1,14 @@
+Package: dfdr
+Type: Package
+Title: Automatic differentiation of simple functions
+Version: 0.1.0
+Authors@R: c(person("Thomas", "Mailund", role = c("aut", "cre"), email = "mailund@birc.au.dk"))
+Description: This package implement some meta-programming for automatically computing the derivatives
+    of functions that consists of single expressions.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Suggests:
+    testthat,
+    covr
+RoxygenNote: 5.0.1
